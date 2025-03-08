@@ -139,6 +139,28 @@ end
 return kata
 ```
 
+### returning strings kyu 8 
 
+```lua 
+return {
+  greet = function(name)
+      -- your code here
+    return 'Hello, ' .. name.. ' how are you doing today?'
+  end
+};
+```
+
+### convert a string to a Number! 
+
+```lua 
+local kata = {}
+
+function kata.string_to_number(s)
+  -- Your solution here
+  return tonumber(s)
+end
+
+return kata
+```
 
 

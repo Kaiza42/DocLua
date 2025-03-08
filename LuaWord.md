@@ -18,3 +18,13 @@ gsub("%a","") -- remplace les lettre majuscule ou minuscule
 gsub(".","") -- remplace tout les caractère 
 ```
 
+### tostring, tonumber 
+
+```lua
+local chiffre = 14523
+local string = tostring(chiffre) -- convertie chiffre en string "14523"
+local number = tonumber(chiffre) -- converti chiffre en number 14523
+```
+
+
+
