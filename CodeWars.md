@@ -111,3 +111,34 @@ if boolean == true then
 end
 return solution
 ```
+
+
+### Function 1 - hello world 8 kyu 
+
+```lua 
+local kata = {}
+
+  -- Write a function `kata.greet` that returns "hello world!"
+function kata.greet()
+  return "hello world!"
+  end
+
+
+return kata
+```
+### remove string spaces kyu 8 
+
+```lua 
+
+local kata = {}
+
+function kata.noSpace(str)
+  return str:gsub("%s+","")
+end
+
+return kata
+```
+
+
+
+
