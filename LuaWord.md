@@ -38,7 +38,9 @@ local random = math.random(5, 10) -- va me generer un chiffre aléatoire entre 5
 
 ```lua 
 local phrases = "Bonjour je m'appelle Jean" 
-local sousPhrases = phrases:sub(1,7)
+local sousPhrases = phrases:sub(1,7) -- 1 le debut 7 la fin, sa prendre une partie de la string 
+```
+
 
 
 
