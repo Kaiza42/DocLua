@@ -25,6 +25,21 @@ local chiffre = 14523
 local string = tostring(chiffre) -- convertie chiffre en string "14523"
 local number = tonumber(chiffre) -- converti chiffre en number 14523
 ```
+### math.random
+```lua 
+local caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()"
+-- plusieur façon de l'utiliser 
+local indice = math.random(10) -- genere un chiffre entre 1 et 10 
+local random = math.random(1, #caracteres) -- va me generer un caractere aléatoire de ma chaine de caractère 
+local random = math.random(5, 10) -- va me generer un chiffre aléatoire entre 5 et 10
+```
+
+### sub: 
+
+```lua 
+local phrases = "Bonjour je m'appelle Jean" 
+local sousPhrases = phrases:sub(1,7)
+
 
 
 
