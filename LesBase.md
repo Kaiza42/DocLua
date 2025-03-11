@@ -44,8 +44,34 @@
 |  | `;` | Séparateur d'instructions |
 
 ## if else elseif
+### if 
+```lua 
+local six = 6 
+if six == 6 then 
+print("je suis egale a " .. six )
+end
+```
+### if else 
 
-
+```lua 
+local six = 6
+if six == 8 then 
+print("je suis egale a 8")
+else 
+print("je suis egale a " .. six)
+end
+```
+### if elseif else
+```lua
+local six = 6
+if six == 8 then 
+print("je suis egale a 6" )
+else if six == 6 then 
+print("je suis egale a 6")
+else 
+print("je suis egale a " .. six)
+end
+```
 ### boucle for 
 
 ```lua
@@ -83,5 +109,3 @@ end
 
 ### boucle for imbriquer dans une autre boucle for 
 
-
-²²
