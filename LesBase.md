@@ -65,7 +65,7 @@ end
 ```lua
 local six = 6
 if six == 8 then 
-print("je suis egale a 6" )
+print("je suis egale a 8" )
 else if six == 6 then 
 print("je suis egale a 6")
 else 
@@ -106,6 +106,4 @@ for x = 1, 10 do
     end 
 end   
 ```
-
-### boucle for imbriquer dans une autre boucle for 
 
