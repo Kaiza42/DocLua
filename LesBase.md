@@ -113,3 +113,22 @@ for x = 1, 10 do
 end   
 ```
 
+### function 
+
+```lua
+function calcul(a,b)-- a et b les paramettre
+return a + b -- ici seras fait le calcul
+end -- fin de la fonction 
+
+print(calcul(14,16)) -- affichage de la function et on donne une valeur aux paramettre 
+```
+
+### repeat & until
+
+```lua 
+local chiffre = 1 -- la variable qu'on incrémente
+repeat -- le repeteur 
+print("le chiffre est " .. chiffre) -- le print pour voir le resultat
+    chiffre = chiffre +1 -- incrémentation de chiffre
+until chiffre > 10 -- la condition de la répétition
+```
