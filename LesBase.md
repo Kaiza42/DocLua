@@ -43,7 +43,6 @@
 | **Autres** | `()` | Appel de fonction |
 |  | `;` | Séparateur d'instructions |
 
-## if else elseif
 ### if 
 ```lua 
 local six = 6 
@@ -52,7 +51,6 @@ print("je suis egale a " .. six )
 end
 ```
 ### if else 
-
 ```lua 
 local six = 6
 if six == 8 then 
@@ -122,13 +120,21 @@ end -- fin de la fonction
 
 print(calcul(14,16)) -- affichage de la function et on donne une valeur aux paramettre 
 ```
-
 ### repeat & until
-
 ```lua 
 local chiffre = 1 -- la variable qu'on incrémente
 repeat -- le repeteur 
 print("le chiffre est " .. chiffre) -- le print pour voir le resultat
     chiffre = chiffre +1 -- incrémentation de chiffre
 until chiffre > 10 -- la condition de la répétition
+```
+### while 
+
+```lua 
+local compteur = 1 -- la variable du compteur 
+
+while compteur <= 10 do -- tant que le compteur est inférieur à 10
+    print(compteur) -- affiche le compteur
+    compteur = compteur + 1 -- incrémente le compteur
+end
 ```

@@ -1,6 +1,6 @@
-local chiffre = 1
+local compteur = 1 -- la variable du compteur 
 
-repeat
-print("le chiffre est " .. chiffre)
-    chiffre = chiffre +1
-until chiffre > 10
+while compteur <= 10 do -- tant que le compteur est inférieur à 10
+    print(compteur) -- affiche le compteur
+    compteur = compteur + 1 -- incrémente le compteur
+end
