@@ -72,8 +72,14 @@ else
 print("je suis egale a " .. six)
 end
 ```
+### if not
+```lua
+local six = 6
+if not six == 5 then 
+print("c'est pas égale a 5")
+end
 ### boucle for 
-
+```
 ```lua
 for x = 1, 10 do -- compte de 1 a 10 
     print(x) -- affichage
