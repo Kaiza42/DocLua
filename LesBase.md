@@ -138,3 +138,19 @@ while compteur <= 10 do -- tant que le compteur est inférieur à 10
     compteur = compteur + 1 -- incrémente le compteur
 end
 ```
+
+### les tableau 
+```lua
+local fruits = {"pomme", "banane", "orange"} -- le tableau pomme étant 1 
+for index, fruit in ipairs(fruits) do
+    print("Fruit " .. index .. " : " .. fruit) -- les affiche dans l'ordre de l'index cet a dire Pomme = 1 banane = 2 orange = 3 
+end
+```
+```lua
+local personne = {
+    nom = "Alice", -- le prenom stocker dans mon tableau
+    age = 30  -- l'age stocker dans mon tableau
+}
+print("Nom : " .. personne.nom) -- affichage  du prenom
+print("Âge : " .. personne.age) -- affichage de l'age 
+```
