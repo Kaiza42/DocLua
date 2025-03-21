@@ -81,7 +81,3 @@ for x = 1, 10 do
 end   
 ```
 
-### boucle for imbriquer dans une autre boucle for 
-
-
-²²
